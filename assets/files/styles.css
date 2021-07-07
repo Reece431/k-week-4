@@ -84,6 +84,12 @@ img {
   background-position: center;
 }
 
+@media only screen and (max-width: 500px) {
+  .banner {
+    height: 52em;
+  }
+}
+
 .banner .offer {
   width: 28em;
   padding: 2em;
@@ -99,6 +105,13 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .banner .offer {
+    width: 18em;
+    padding: 1em;
+  }
 }
 
 .banner .offer .logo {
@@ -169,6 +182,13 @@ img {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  .banner .secondary {
+    width: 18em !important;
+    font-size: 1em !important;
+  }
+}
+
 .info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -200,6 +220,12 @@ img {
           justify-content: center;
   width: 80vw;
   margin: 1em 0;
+}
+
+@media only screen and (max-width: 500px) {
+  .info .steps {
+    width: 92vw;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -317,6 +343,12 @@ img {
   margin-bottom: .8em;
 }
 
+@media only screen and (max-width: 500px) {
+  .info .TC h2 {
+    text-align: center;
+  }
+}
+
 .info .TC .copyright {
   line-height: 2em;
 }
@@ -362,6 +394,12 @@ footer .icons {
 
 footer .icons #iconList {
   width: 30em;
+}
+
+@media only screen and (max-width: 500px) {
+  footer .icons #iconList {
+    width: 20em;
+  }
 }
 
 footer #gamble-aware {

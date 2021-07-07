@@ -71,6 +71,9 @@ img{
 }
 
 .banner{
+    @include mqMax(500px){
+        height: 52em;
+    }
     @include flex();
     width: 100vw;
     max-width: 100%;
@@ -81,6 +84,10 @@ img{
     background-position: center;;
 
     .offer{
+        @include mqMax(500px){
+            width: 18em;
+            padding: 1em;
+        }
         width: 28em;
         padding: 2em;
         margin: 3em 0;
@@ -121,11 +128,18 @@ img{
                 padding: 1.2em 1em;;
             }
         }
+        @include mqMax(500px){
+            width: 18em!important;
+            font-size: 1em!important;
+        }
     }
 }
 .info{
     @include flex();
     .steps{
+        @include mqMax(500px){
+            width: 92vw;
+        }
         @include mqMax(1024px){
             width: 90vw;
         }
@@ -197,6 +211,9 @@ img{
         color: $txtCol;
         background: $col1;
         h2{
+            @include mqMax(500px){
+                text-align: center;
+            }
             font-size: 2em;
             margin-bottom: .8em;
         }
@@ -219,6 +236,9 @@ footer{
         width: 100%;
         background: rgba(0,0,0,0.2);
         #iconList{
+            @include mqMax(500px){
+                width: 20em;
+            }
             width: 30em;
         }
     }
